@@ -24,3 +24,13 @@
 #Firstly, Download the IMDB dataset and read the text messages in the dataset. And then select the 10,000 words that appear most frequently as their ids, and then turn each word into the corresponding ID, because the text length is different in the batch training, there will be an exception, I calculated the average length of the text degree, and cut the longer and supplement the shorter 0 operation.
 
 #The result shows that the training rate of GRU is lower but the accuracy is higher.
+
+
+
+"----For task4 ----"
+
+#The purpose of this task is to train a CVAE model on the MNIST dataset.
+
+#The result shows just like the figure.
+
+![](./images/task4_3.png)
